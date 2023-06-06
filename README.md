@@ -4,7 +4,7 @@ Esta es una página creada en el lenguaje python para la autenticación de un us
 
 Django REST framework es un conjunto de herramientas potente y flexible para crear API web, su documentación se puede consultar en el siguiente enlace:
 
-Django Rest Framework
+[Django Rest Framework](https://www.django-rest-framework.org/)
 
 Una razón por la cual se empleó Django Rest Framework es porque las sesiones de Django se basan de forma predeterminada en una cookie de sesión almacenada en el cliente, esto facilita el manejo de la autenticación.
 
@@ -13,6 +13,6 @@ Para el Inicio de Sesión se empleó el módulo incorporado en Django "Authentic
 
 "sqlite3 — DB-API 2.0 interfaz para bases de datos SQLite" se empleó para trabajar la conexión con la base de datos mediante un modelo DAO, su documentación se puede consultar en el siguiente enlace:
 
-Sqlite3
+[Sqlite3](https://docs.python.org/es/3/library/sqlite3.html)
 
 En el caso de sqlite3 , se escogió esta libreria debido a su facilidad en la implementación de la misma en el proyecto y que las funcionalidades que proporciona son las suficientes/necesarias para el funcionamiento del proyecto con la base de datos.
