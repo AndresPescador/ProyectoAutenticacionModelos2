@@ -10,6 +10,7 @@ Una razón por la cual se empleó Django Rest Framework es porque las sesiones d
 
 Para el registro se empleó el módulo incorporado en Django "UserCreationForm" , el cual se usa para crear un nuevo usuario.
 Para el Inicio de Sesión se empleó el módulo incorporado en Django "AuthenticationForm" , el cual se usa para el inicio de sesión de usuario.
+También cabe destacar que Django emplea un patrón "Model Template Vista (MTV)", por ello las plantillas hechas en html se pueden encontrar en la carpeta "template"
 
 "sqlite3 — DB-API 2.0 interfaz para bases de datos SQLite" se empleó para trabajar la conexión con la base de datos mediante un modelo DAO, su documentación se puede consultar en el siguiente enlace:
 
